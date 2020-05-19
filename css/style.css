@@ -1,0 +1,125 @@
+/* FONT */
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+* .bold-700 {
+    font-weight: 700;
+}
+
+* .light-300 {
+    font-weight: 300;
+}
+
+* .light-100 {
+    font-weight: 100;
+}
+
+* .light-500 {
+    font-weight: 500;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 2s ease;
+}
+
+/* * {
+    transition: 1s ease-in-out;
+} */
+
+
+/* Landing Page */
+/* .landing{
+    background: url(../images/landing-page/landing-page.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* Landing Background */
+svg {
+    position: absolute;
+}
+
+/* Top-Class Section */
+
+.top {
+    margin-top: 20%;
+}
+
+/* Info Card Section */
+
+.info {
+    margin-top: 25%;
+}
+
+.info .card-deck {
+    justify-content: center;
+}
+
+.info .card-body>h5 {
+    font-size: 15px;
+}
+
+.info .card {
+    max-width: 13rem;
+    max-height: 12rem;
+    text-align: center;
+    border: none;
+    box-shadow: 1px 1px 20px 10px #ECEDF2 ;
+}
+
+/* Features Online Course */
+
+.online-course {
+    margin-top: 15%;
+}
+
+.online-course > .row:nth-child(2n+1){
+    text-align: center;
+}
+
+.online-course .card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* How Does It Work */
+
+.how-does {
+    margin-top: 15%;
+}
+
+.how-does > .row:nth-child(1) {
+    text-align: center;
+}
+
+.how-does .card-deck {
+    justify-content: center;
+}
+
+.how-does .card {
+    max-width: 16rem;
+    max-height: 14rem;
+    text-align: center;
+    border: none;
+}
+
+.how-does .card-body > h5 {
+    font-size: 15px;
+}
+.how-does .card-body > p {
+    font-size: 13px;
+}
+
+/* Download App */
+
+.download {
+    margin-top: 15% ;
+}
+
+
+
+
+
